@@ -27,7 +27,7 @@ pipeline {
 						   nexusUrl: 'localhost:8081', 
 						   nexusVersion: 'nexus3', 
 						   protocol: 'http', 
-						   repository: 'http://192.168.1.172:8081/repository/maven-nexus-repo', 
+						   repository: 'maven-nexus-repo', 
 						   version: '1.0.0'
                     }
             }
