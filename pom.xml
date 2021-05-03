@@ -11,12 +11,12 @@
         <repository>
             <id>nexus</id>
             <name>Nexus Release Repo</name>
-            <url>http://localhost:8081/repository/maven-nexus-repo/</url>
+            <url>http://192.168.1.172:8081/repository/maven-nexus-repo/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
             <name>Nexus Snapshots Repo</name>
-            <url>localhost:8081/repository/maven-snapshots/</url>
+            <url>192.168.1.172:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
