@@ -23,7 +23,7 @@ pipeline {
 							type: 'war'
 							]
 						], credentialsId: 'e0850b2e-0788-4e40-bf42-53edd03c69b1', 
-						   groupId: 'in.javahome', 
+						   groupId: 'home.java', 
 						   nexusUrl: 'localhost:8081', 
 						   nexusVersion: 'nexus3', 
 						   protocol: 'http', 
